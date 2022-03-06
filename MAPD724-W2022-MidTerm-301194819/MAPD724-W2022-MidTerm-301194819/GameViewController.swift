@@ -48,7 +48,8 @@ class GameViewController: UIViewController, GameManager
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
+            //return .allButUpsideDown
+            return [.landscapeLeft, .landscapeRight]
         } else {
             return .all
         }
