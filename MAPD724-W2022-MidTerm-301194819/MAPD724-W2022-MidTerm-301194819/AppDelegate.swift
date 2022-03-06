@@ -1,9 +1,8 @@
-//
-//  AppDelegate.swift
-//  MAPD724-W2022-ICE1
-//
-//  Created by Tom Tsiliopoulos on 2022-01-12.
-//
+/*
+ Author     : Divyesh Karansinh Solanki
+ Student Id : 301194819
+ Date       : 06-march-2022
+*/
 
 import UIKit
 
