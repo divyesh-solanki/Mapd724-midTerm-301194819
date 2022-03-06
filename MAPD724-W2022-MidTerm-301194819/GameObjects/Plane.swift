@@ -19,15 +19,15 @@ class Plane : GameObject
     override func CheckBounds()
     {
         // constrain on the left boundary
-        if(position.x <= -310)
+        if(position.y <= -310)
         {
-            position.x = -310
+            position.y = -310
         }
         
         // constrain on the right boundary
-        if(position.x >= 310)
+        if(position.y >= 310)
         {
-            position.x = 310
+            position.y = 310
         }
     }
     
